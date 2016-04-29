@@ -1,0 +1,10 @@
+{{ define "index.tmpl" }}
+<html>
+    {{ template "header.tmpl" }}
+    <body>
+        <div id="output"></div>
+        $&nbsp;<input class="command-line"  onfocus="this.value = this.value;" id="command-line" type="text" />
+        {{ template "scripts.tmpl"}}
+    </body>
+</html>
+{{ end }}

@@ -1,0 +1,16 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #111;
+  color: #BADA55;
+  font-family: 'Ubuntu Mono';
+  font-size: 13px;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.command-line {
+  background-color: #111;
+  border: none;
+  color: #BADA55;
+}

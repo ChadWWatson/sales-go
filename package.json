@@ -1,0 +1,25 @@
+{
+  "name": "sales-go",
+  "version": "0.0.1",
+  "description": "SalesTalk Application",
+  "main": "web/main.go",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChadWWatson/sales-go.git"
+  },
+  "author": "Chad Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChadWWatson/sales-go/issues"
+  },
+  "homepage": "https://github.com/ChadWWatson/sales-go#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
+    "gulp-less": "^3.0.5",
+    "webpack": "^1.13.0"
+  }
+}

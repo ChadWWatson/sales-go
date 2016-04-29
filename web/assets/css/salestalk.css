@@ -9,8 +9,21 @@ textarea:focus,
 input:focus {
   outline: none;
 }
-.command-line {
+.command-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+.command-wrap .line-wrap {
+  display: block;
+  overflow: hidden;
+  padding-left: 10px;
+}
+.command-wrap .command-line {
   background-color: #111;
   border: none;
   color: #BADA55;
+  width: 100%;
+}
+.command-wrap .command-prompt {
+  float: left;
 }

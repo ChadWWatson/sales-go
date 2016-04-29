@@ -3,7 +3,12 @@
     {{ template "header.tmpl" }}
     <body>
         <div id="output"></div>
-        $&nbsp;<input class="command-line"  onfocus="this.value = this.value;" id="command-line" type="text" />
+        <div class="command-wrap">
+            <span class="command-prompt">$</span>
+            <span class="line-wrap">
+                <input class="command-line"  onfocus="this.value = this.value;" id="command-line" type="text" />
+            </span>
+        </div>
         {{ template "scripts.tmpl"}}
     </body>
 </html>

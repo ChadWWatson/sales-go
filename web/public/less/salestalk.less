@@ -11,8 +11,21 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-.command-line {    
-    background-color: #111;
-    border: none;
-    color: @badass;
+.command-wrap {
+    width: 100%;
+    overflow: hidden;
+    .line-wrap  {
+        display: block;
+        overflow: hidden;
+        padding-left:10px;
+    }
+    .command-line {    
+        background-color: #111;
+        border: none;
+        color: @badass;
+        width: 100%;
+    }   
+    .command-prompt {
+        float: left;
+    }
 }
